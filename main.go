@@ -10,3 +10,5 @@ func HelloTest(s *C.char) *C.char {
 
 func main() {
 }
+
+// go build -o [파일.dll] -buildmode=c-shared
